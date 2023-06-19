@@ -12,6 +12,12 @@ describe 'Unit tests for "Person" class' do
     expect(person2.age).to eq(17)
   end
 
+  it 'should create unique id for each person' do
+    person1 = Person.new(25, 'Mahabub')
+    person2 = Person.new(17, 'Mahabub2')
+    expect(person1.id == person2.id).to eq(false)
+  end
+
   it 'should check person can_use_service?' do
     person1 = Person.new(25, 'Mahabub')
     person2 = Person.new(17, 'Mahabub2', false)
