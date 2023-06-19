@@ -2,8 +2,8 @@ require_relative '../lib/teacher'
 
 describe 'Unit tests for "Teacher" class' do
   it 'should be able to get parent properties' do
-    teacher = Teacher.new('OOP', 25, 'Mahabub')
-    teacher2 = Teacher.new('OOP', 17, 'Mahabub2', false)
+    teacher = Teacher.new('OOP', 'Mahabub', 25)
+    teacher2 = Teacher.new('OOP', 'Mahabub2', 17)
 
     expect(teacher.name).to eq('Mahabub')
     expect(teacher2.name).to eq('Mahabub2')
@@ -13,12 +13,12 @@ describe 'Unit tests for "Teacher" class' do
   end
 
   it 'should return specialization info' do
-    teacher = Teacher.new('OOP', 25, 'Mahabub')
+    teacher = Teacher.new('OOP', 'Mahabub', 25)
     expect(teacher.specialization).to eq('OOP')
   end
 
   it 'should return can_use_service? always true' do
-    teacher = Teacher.new('OOP', 25, 'Mahabub')
-    expect(teacher.can_use_service?).to eq(true)
+    teacher = Teacher.new('OOP', 'Mahabub', 25)
+    expect(teacher.can_use_service?).to be_truthy
   end
 end
