@@ -1,4 +1,4 @@
-require_relative '../lib/book.rb'
+require_relative '../lib/book'
 
 describe 'Unit tests for "Book" class' do
   book = Book.new('Ruby and OOP', 'F. Microverse')
