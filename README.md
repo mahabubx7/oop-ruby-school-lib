@@ -76,6 +76,11 @@ You can deploy this project using: N/A
 - Twitter: [@mahabub\_\_7](https://twitter.com/mahabubx7)
 - LinkedIn: [in/mahabubx7](https://linkedin.com/in/mahabubx7)
 
+👤 **Abdel-Khafid SALAOU**
+
+- GitHub: [@githubhandle](https://github.com/adeola003)
+- Twitter: [@twitterhandle](https://twitter.com/khadaf6)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdel-khafid-salaou)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
